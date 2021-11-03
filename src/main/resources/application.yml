@@ -16,15 +16,3 @@ spring:
     username: postgres
     password: codeacademy
     driverClassName: org.postgresql.Driver
-
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: zalandauskasdarius@gmail.com
-    password: paslanx2593
-    protocol: smtp
-    tls: true
-    properties.mail.smtp:
-      auth: true
-      starttls.enable: true
-      ssl.trust: smtp.gmail.com
