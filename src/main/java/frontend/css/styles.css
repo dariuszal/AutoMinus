@@ -1,0 +1,298 @@
+body {
+  background: #edeef0;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+.header .header-top-container {
+  position: relative;
+  max-height: 780px;
+  min-width: 470px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header-right-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: 30%;
+  color: #ffffff;
+}
+
+.header-right-container .button-group {
+  position: absolute;
+  top: 28%;
+  right: 15%;
+}
+
+.header-right-container a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 16px 32px;
+  margin: 10px;
+  background-color: transparent;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+.header-right-container button:hover {
+  color: black;
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+  .header-right-container {
+    bottom: 25%;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-right-container {
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 620px) {
+  .header-right-container {
+    height: 200px;
+  }
+  .header-right-container .button-group {
+    right: 10%;
+  }
+}
+
+.main section {
+  padding: 25px;
+  margin: 3% auto;
+  background-color: white;
+  width: 760px;
+}
+
+.main section .main-row {
+  max-width: 760px;
+}
+
+#sell-form #all-features {
+  margin-top: 15px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.feature {
+  display: inline;
+}
+
+.feature label {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.select-box {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #edeef0;
+}
+
+.bottom-buttons {
+  text-align: center;
+}
+
+.bottom-buttons button {
+  width: 150px;
+  margin: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 23px;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.bottom-buttons button:hover {
+  color: white;
+  background-color: #555555;
+}
+
+.price-paragraph {
+  text-align: left;
+  background: #edeef0;
+  font-size: 25px;
+}
+
+.carousel-image {
+  height: 400px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* vertical */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* horizontal */
+}
+
+.carousel-item span {
+  margin-left: 3px;
+  border: solid 1px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #edeef0;
+}
+
+.validation-class input:invalid {
+  border: 2px solid red !important;
+}
+
+.select-validation {
+  border: 2px solid red !important;
+}
+
+select {
+  font-family: 'FontAwesome', 'Ubuntu';
+}
+
+.result-item {
+  border: 1px solid gray;
+  display: inline-block;
+  background-color: #edeef0;
+  overflow: hidden;
+}
+
+.result-item img {
+  width: auto;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* vertical */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* horizontal */
+}
+
+.result-item span {
+  margin-left: 3px;
+  border: solid 1px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #edeef0;
+}
+
+.list-view {
+  border: 1px solid gray;
+  background-color: #edeef0;
+}
+
+.list-view img {
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* vertical */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* horizontal */
+}
+
+.list-view span {
+  margin-left: 3px;
+  border: solid 1px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #edeef0;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item:hover .grid-buy-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.grid-buy-button {
+  font-size: 64px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* vertical */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* horizontal */
+  display: none;
+  opacity: 80%;
+}
+
+.list-buy-button {
+  width: 150px;
+  margin: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 23px;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  border: 1px solid black;
+}
+
+.list-buy-button:hover {
+  color: white;
+  background-color: #555555;
+}
+
+.btn-check {
+  border-color: black;
+}
+/*# sourceMappingURL=styles.css.map */
